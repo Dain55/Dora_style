@@ -1,0 +1,46 @@
+.page-statstics{
+ margin-top: 150px;
+ background-color: rgb(241, 241, 241);
+ width: 100%;
+ height: 450px;
+ box-sizing: border-box;
+   h2{
+    text-align: center;
+    color: #FD6E0A;
+    padding: 10px 0px;
+   }
+   h1{
+    text-align: center;
+    color: #15295F;
+    font-size: 40px
+   }
+   .box-stats{
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    justify-content: space-between;
+    .box-margin{
+        margin: 20px 0px;
+        .stats-around{
+            height: 20px;
+            width: 500px;
+            background-color: #CDCDCD;
+            border-radius: 20px;
+            margin: 10px 0px;
+        }
+        .stats-gold{
+            background-color: #FD6E0A;
+            width: 400px;
+            height: 20px;
+            border-radius: 20px;
+        }
+        p{
+            color: #15295F;
+            font-weight: bold;
+        }
+    }
+
+  
+   
+  }
+}

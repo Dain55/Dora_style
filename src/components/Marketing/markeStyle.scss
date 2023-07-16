@@ -1,0 +1,40 @@
+.page-pictere {
+  margin-top: 150px;
+  center {
+    color: #FD6E0A;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .name-record {
+    color: #15295F;
+  }
+
+
+}
+
+.choose-marketing {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+    cursor: pointer;
+    p:hover {
+      color: #FD6E0A;
+      transition: .5s ease;
+    }
+  }
+
+
+
+.main-grid-pictere {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 30px;
+
+  .grid-img {
+    width: 100%;
+  }
+}
